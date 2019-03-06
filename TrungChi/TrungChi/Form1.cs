@@ -21,7 +21,7 @@ namespace TrungChi
             int a = 1;
             int b = 2;
             int c = a + b;
-            if (c > 0)
+            if (c > 0 && c < 10)
             {
                 Console.WriteLine(a + b);
             }
