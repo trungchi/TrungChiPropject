@@ -20,7 +20,11 @@ namespace TrungChi
         {
             int a = 1;
             int b = 2;
-            Console.WriteLine(a + b);
+            int c = a + b;
+            if (c > 0 && c < 10)
+            {
+                Console.WriteLine(a + b);
+            }
         }
     }
 }
